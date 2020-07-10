@@ -1,19 +1,18 @@
 ## Desafio SRE
 
 ### Problema
-Você acaba de ser contratado pelo time de plataforma da Cervejaria Ambev para cuidar de um produto complexo usando micro serviços. O projeto consiste em diversas micro aplicações e você foi designado a configurar seu cluster destino. Pela alta complexidade do produto, a solução deve considerar um banco de dados relacional MySQL e também um banco não relacional MongoDB, bem como espaço de storage que possa ser usado dentro das micro aplicações. Suportar a arquitetura baseada em eventos, monitoramento da infrastrutura, ferramentas mínimas de gerenciamento do cluster e de observablidade também são parte do seu desafio. 
-
-A nova conta Azure, em que os recursos serão alocados está totalmente vazia, sem nenhum recurso, ou seja, não existe infraestrutura básica para subir a aplicação. Lembre-se de requisitos básico  de segurança (ex: não deixar nenhum recurso acessível via internet) ao modelar essa nova infraestrutura. 
+Você acaba de ser contratado pelo time de plataforma da Cervejaria Ambev para cuidar de um projeto que apresenta lentidão em momentos aleatórios. O time de aplicação tem se queixado da performace do banco mas não consegue provar de uma maneira eficiente que o banco é a causa raiz desse comportamento. Se trata de um banco singular MySQL que cuida de 100% das transações da aplicação, updates de imagens de perfil, dados de usuário e dados massivos transacionais de diversas naturezas.  
 
 ### Sua Missão 
-A infraestrutura dessas aplicações depende do seu trabalho. Faça os diagramas necessários para atender essa demanda da melhor maneira possível.   
+A nova conta Azure, em que os recursos serão alocados está totalmente vazia, sem nenhum recurso, ou seja, não existe infraestrutura básica para subir a aplicação. Lembre-se de requisitos básico  de segurança (ex: não deixar o banco de dados acessível via internet) ao modelar essa nova infraestrutura.  
+
+De uma maneira simples, desenhe qual seria a melhor solução para fazer o monitorameto e o diagnostico do problema, bem como trabalhe para criar um diagrama de como implementar alta disponibilidade para essa aplicação. Considere a arquitetura de dados da aplicação para resolver o problema de performace.  
 
 ### Entregáveis
 Sua missão é propor uma arquitetura utilizando componentes da Azure que atendam os requisitos acima citados. Seus entregáveis devem ser: 
 1. Um diagrama Azure mostrando sua arquitetura. Recomendamos usar: https://cloudcraft.co/  
 2. Um ou mais templates (IaC - infrastructure as a code) da sua infra-estrutura feito Terraform. 
-3. Dockerfile de uma aplicação Hello em python para o primeiro teste no cluster. 
-4. Uma breve explicação da sua solução. 
+3. Uma breve explicação da sua solução. 
 
 
 
