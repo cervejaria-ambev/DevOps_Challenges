@@ -11,6 +11,6 @@ A nova conta Azure, em que os recursos serão alocados está totalmente vazia, s
 Essa infraestrutura da plataforma deve ser elástica e escalável horizontalmente. Nessa aplicação uma das pastas (pasta com imagens de tamanho superior a 1MB) que é servida possui 30Gb.  Devido ao seu tamanho, essa pasta não pode ser copiada para as novas instâncias/pods quando a infraestrutura escalar. Além disso, lembre-se do problema que ocorria com as sessões armazenadas em disco.
 
 ### Entregáveis
-Sua missão é propor uma arquitetura utilizando componentes da AWS que atendam os requisitos acima citados. Seus entregáveis devem ser:
-1. Um diagrama AWS mostrando sua arquitetura. Recomendamos usar: https://cloudcraft.co/ 
+Sua missão é propor uma arquitetura utilizando componentes da Azure que atendam os requisitos acima citados. Seus entregáveis devem ser:
+1. Um diagrama Azure mostrando sua arquitetura. Recomendamos usar: https://cloudcraft.co/ 
 2. Um ou mais templates (IaC - infrastructure as a code) da sua infra-estrutura feito Terraform.
