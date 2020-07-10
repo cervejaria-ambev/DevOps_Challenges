@@ -8,7 +8,7 @@ Falhas na qualidade ou segurança dos produtos são constantes, assim aumentando
 ### Sua Missão 
 A nova conta AZURE, em que os recursos serão alocados está totalmente vazia, sem nenhum recurso, ou seja, não existe infraestrutura básica para subir a aplicação. Lembre-se de requisitos básico de segurança (ex: não deixar o banco de dados acessível via internet) ao modelar essa nova infraestrutura.  
 
-Sua missão é desenhar a arquitetura genérica de segurança para esse grupo de desenvolvedores. Considere todo o tipo de aplicações de monolitos a microserviços, e as mais diversas abordagens de segurança que considerar adequada, SAST, SAST entre outras ferramentas para criar um ambiente seguro do desenvolvimento a produção. 
+Sua missão é desenhar a arquitetura genérica de segurança para esse grupo de desenvolvedores. Considere todo o tipo de aplicações de monolitos a microserviços, e as mais diversas abordagens de segurança que considerar adequada, SAST, DAST entre outras ferramentas para criar um ambiente seguro do desenvolvimento a produção. 
 
 ### Entregáveis
 Sua missão é propor uma arquitetura utilizando componentes da AZURE que atendam os requisitos acima citados. Seus entregáveis devem ser: 
