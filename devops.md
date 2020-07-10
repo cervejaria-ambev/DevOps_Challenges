@@ -14,3 +14,4 @@ Essa infraestrutura da plataforma deve ser elástica e escalável horizontalment
 Sua missão é propor uma arquitetura utilizando componentes da Azure que atendam os requisitos acima citados. Seus entregáveis devem ser: 
 1. Um diagrama Azure mostrando sua arquitetura. Recomendamos usar: https://cloudcraft.co/  
 2. Um ou mais templates (IaC - infrastructure as a code) da sua infra-estrutura feito Terraform. 
+3. Uma breve explicação da sua solução. 
