@@ -1,20 +1,16 @@
-## Desafio SRE
+## Desafio DevSecOps
 
 ### Problema
-Você acaba de ser contratado pela Z-Tech para cuidar de um projeto de migração de uma plataforma Web. O projeto consiste em migrar todos os recursos (banco de dados, servidor de aplicação, sistemas de cache, conteúdos estáticos, DNS e outros) de um infra-estrutura terceira para a AWS. O principal motivo dessa migração se deve a nova quantidade de acesso esperados. A Z-Tech vem escalado fortemente suas operações nos últimos meses e por conta disso, é esperado uma aumento de tráfego de até 30x. Essa quantidade de acesso é infrequente, possuindo momentos de pico fortes e momentos onde o tráfego é menor.
+Você acaba de ser contratado pela Z-Tech para cuidar da maior reestruturação de segurança da cia. Em um histórico de mais de 10 anos trabalhando com softwares terceiros existe a necessidade eminente da consolidação dos produtos em um único repositório. Ao longo dos anos nenhuma metodologia de devSECops foi utilizada e atualmente sua implantação é necessária para garantir um nível adequado de segurança nas pipelines dos mais de 100 produtos. 
 
-Essa plataforma Web possui uma arquitetura muito simples. Um servidor de web, (Nginx) em conjunto com um interpretador de código (PHP) que é responsável por servir o conteúdo estático e dinâmico. Para armazenamento é utilizado um banco de dados relacional MySQL. Um dos problemas de performance que existe atualmente nessa solução é que todas as sessões são armazenadas em disco. Em momentos de pico, o disco fica muito utilizado degradando a performance do site. Além disso, essa infraestrutura não é escalável horizontalmente. Outro problema recorrente é quanto ao tempo de carregamento das imagens. A plataforma costuma servir imagens de até 1MB e como seus servidores ficam armazenados na Virginia, perde-se muito tempo com a latência/tempo de download dessas imagens.
+Falhas na qualidade ou segurança dos produtos são constantes, assim aumentando demais o TTM e deixando o negócio de cabelo em pé. O time de desenvolvimento acredita  não ter nem as ferramentas, nem o conhecimento adequado, para adaptar a pipeline de produtos ou mesmo garantir que o software em produção está saudável. 
 
 ### Sua Missão 
-A nova conta AWS, em que os recursos serão alocados está totalmente vazia, sem nenhum recurso, ou seja, não existe infraestrutura básica para subir a aplicação. Lembre-se de requisitos básico  de segurança (ex: não deixar o banco de dados acessível via internet) ao modelar essa nova infraestrutura. 
+A nova conta AZURE, em que os recursos serão alocados está totalmente vazia, sem nenhum recurso, ou seja, não existe infraestrutura básica para subir a aplicação. Lembre-se de requisitos básico  de segurança (ex: não deixar o banco de dados acessível via internet) ao modelar essa nova infraestrutura. 
 
-Essa infraestrutura da plataforma deve ser elástica e escalável horizontalmente. Nessa aplicação uma das pastas (pasta com imagens de tamanho superior a 1MB) que é servida possui 30Gb.  Devido ao seu tamanho, essa pasta não pode ser copiada para as novas instâncias/pods quando a infraestrutura escalar. Além disso, lembre-se do problema que ocorria com as sessões armazenadas em disco.
+Sua missão é desenhar a arquitetura genérica de segurança para esse grupo de desenvolvedores. Considere todo o tipo de aplicações de monolitos a microserviços, e as mais diversas abordagens de segurança que considerar adequada, SAST, SAST entre outras ferramentas para criar um ambiente seguro do desenvolvimento a produção.
 
 ### Entregáveis
-Sua missão é propor uma arquitetura utilizando componentes da AWS que atendam os requisitos acima citados. Seus entregáveis devem ser:
-1. Um diagrama AWS mostrando sua arquitetura. Recomendamos usar: https://cloudcraft.co/ 
-2. Um ou mais templates (IaC - infrastructure as a code) da sua infra-estrutura feito em CloudFormation ou Terraform.
-
-
-
-
+Sua missão é propor uma arquitetura utilizando componentes da AZURE que atendam os requisitos acima citados. Seus entregáveis devem ser:
+1. Um diagrama AZRE mostrando sua arquitetura. Recomendamos usar: https://cloudcraft.co/ 
+2. Um ou mais templates (IaC - infrastructure as a code) da sua infra-estrutura feito em Terraform.
