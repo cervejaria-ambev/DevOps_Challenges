@@ -14,7 +14,7 @@ Sua missão é propor uma arquitetura utilizando componentes da Azure que atenda
 2. Uma breve explicação da sua solução.
 
 Sabemos que o mundo está em constante evolução e como trabalhamos com metodologias ágeis, fique a vontade também para entregar esse desafio não mandatório.
-3. Um ou mais templates (IaC - infrastructure as a code) da sua infra-estrutura feito Terraform. 
+1. Um ou mais templates (IaC - infrastructure as a code) da sua infra-estrutura feito Terraform. 
  
 
 
