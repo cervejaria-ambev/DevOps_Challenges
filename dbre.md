@@ -1,4 +1,4 @@
-## Desafio DBRE
+## Desafio DBA
 
 ### Problema
 Você acaba de ser contratado pelo time de plataforma da Cervejaria Ambev para cuidar de um projeto que apresenta lentidão em momentos aleatórios. O time de aplicação tem se queixado da performace do banco mas não consegue provar de uma maneira eficiente que o banco é a causa raiz desse comportamento. Se trata de um banco singular MySQL que cuida de 100% das transações da aplicação, updates de imagens de perfil, dados de usuário e dados massivos transacionais de diversas naturezas.  
