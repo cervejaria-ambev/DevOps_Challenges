@@ -11,8 +11,11 @@ De uma maneira simples, desenhe qual seria a melhor solução para fazer o monit
 ### Entregáveis
 Sua missão é propor uma arquitetura utilizando componentes da Azure que atendam os requisitos acima citados. Seus entregáveis devem ser: 
 1. Um diagrama Azure mostrando sua arquitetura.  
-2. Um ou mais templates (IaC - infrastructure as a code) da sua infra-estrutura feito Terraform. 
-3. Uma breve explicação da sua solução. 
+2. Uma breve explicação da sua solução.
+
+Sabemos que o mundo está em constante evolução e como trabalhamos com metodologias ágeis, fique a vontade também para entregar esse desafio não mandatório.
+3. Um ou mais templates (IaC - infrastructure as a code) da sua infra-estrutura feito Terraform. 
+ 
 
 
 
