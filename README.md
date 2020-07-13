@@ -5,7 +5,7 @@
 *Escolha o desafio relacioando a posição que você está concorrendo:*
 
 - [DevOps Engineer](devops.md)
-- [DBRE](dbre.md)
+- [DBA](dbre.md)
 - [SRE](sre.md)
 - [DevSecOps Engineer](devsecops.md)
 
